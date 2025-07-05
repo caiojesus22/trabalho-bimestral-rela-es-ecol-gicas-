@@ -65,33 +65,61 @@
   box-shadow: none;
 }
 header h1{
-  box-sizing: border-box;
-  background-image: linear-gradient(rgb(4, 46, 6), rgb(8, 80, 24), rgb(12, 95, 33));
-  border-color: rgb(54, 184, 54);
-  border-style: solid;
-  color: azure;
+ /* box-sizing: border-box;
+  background-color: #a5d6a7;
+  color: green;
+   box-shadow: 0 2px 6px;
   text-align: center;
-  font-family: "Anton", sans-serif;
+  font-family:'Anton', sans-serif;
   font-weight: 400;
   font-style: normal;
   margin-top: 0%;
-  width: 100%;
+  width: 100%;*/
+ 
+  background-color: #a5d6a7;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  color: #1b5e20;
+  box-shadow: 0 2px 6px;
+
 }
+
+
+
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 colunas de mesmo tamanho */
-  gap: 20px; /* espaçamento entre os blocos */
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px; 
   padding: 20px;
   border-style: dotted;
-  border-color: green;
+  border-color: rgb(255, 249, 249);
 }
 
 .item {
-  background-color: #f0f9f0; /* cor suave, opcional */
+  background-color: #f0f9f0; 
   border-radius: 10px;
   padding: 16px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* leve sombra, opcional */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+  
 }
-
-
+body{
+  background-color:#c6dfc8;
+  font-family: system-ui;
+  font-size: 17px;
+}
+.o-que-e-ecologia{
+  font-weight: bold;
+  background: linear-gradient(to right, #0a1129, #06580a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+.strong{
+  color: black;
+}
+a{
+  color: #0a1129;
+}
 
