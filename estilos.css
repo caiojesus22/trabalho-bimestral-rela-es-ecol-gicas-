@@ -1,0 +1,97 @@
+.backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  pointer-events: none;
+  transition: opacity 1s linear;
+  opacity: 1;
+  visibility: visible;
+}
+
+.desaparecido {
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+.backdrop video {
+  width: 100%;
+}
+
+/* estilizando o botão de tirar o "muted" do vídeo */
+.backdrop.desaparecido + #unmute {
+  display: none;
+}
+
+#unmute {
+  position: absolute;
+  left: calc(50% - 0.75em);
+  top: calc(50% - 0.75em);
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  background-color: rgba(255, 255, 255, .15);
+  color: black;
+  font-size: 2.5rem;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1em;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .15);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .15);
+}
+
+#unmute:hover {
+  color: white;
+}
+
+#unmute:active {
+  color: black;
+  transform: translate(1px, 1px);
+}
+
+#unmute:focus {
+  outline: none;
+  border-color: transparent;
+  box-shadow: 0 0 0 4px yellow;
+}
+
+#unmute:active:focus {
+  color: black;
+  border-color: currentColor;
+  box-shadow: none;
+}
+header h1{
+  box-sizing: border-box;
+  background-image: linear-gradient(rgb(4, 46, 6), rgb(8, 80, 24), rgb(12, 95, 33));
+  border-color: rgb(54, 184, 54);
+  border-style: solid;
+  color: azure;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 0%;
+  width: 100%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colunas de mesmo tamanho */
+  gap: 20px; /* espaçamento entre os blocos */
+  padding: 20px;
+  border-style: dotted;
+  border-color: green;
+}
+
+.item {
+  background-color: #f0f9f0; /* cor suave, opcional */
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* leve sombra, opcional */
+}
+
+
+
