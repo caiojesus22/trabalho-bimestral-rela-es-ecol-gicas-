@@ -69,8 +69,19 @@ Segundo os benefícios ou prejuízos que apresentam:
     <li>Relações Desarmônicas: quando o resultado desta relação for negativo, ou seja, se houver prejuízos para uma ou ambas as espécies envolvidas.</li>
 </p>
   </ul>
-  
-  <p>Click <strong><a href="relações.html">aqui</a></strong> para ver os tipos de relações ecológicas.</p>
+
+  <article id="cor-diferente">
+    <table>
+    <caption><strong>Relações Ecológicas</strong></caption>
+      <td><strong>Relações Harmônicas</strong></td><td>intra-específica</td><td>colônias <br> sociedades</td><td>interespecifica</td><td> Mutualismo <br> protocooperação <br> Comensalismo </td>
+    </tr>
+    <tr>
+      <td><strong>Relações Desarmônicas</strong></td><td>intra-específica</td><td>Competição intra-específica <br> Caniibalismo</td>
+         <td>interespecifica</td><td> Competição interespecifica<br> Predatismo <br> Parasitismo <br> Amensalismo <br> Esclavagismo </td>
+    </tr>
+</table>
+  </article>
+  <p>clique <strong><a href="relações.html">aqui</a></strong> para ver os tipos de relações ecológicas.</p>
 </section>
 </main>
 <aside id="lateral" class="backdrop">
@@ -80,17 +91,12 @@ Segundo os benefícios ou prejuízos que apresentam:
   <button id="unmute">🔉</button>
 
   <script>
-    // faz o vídeo desaparecer de leve assim que terminar
-    let tempo = 4000;  // 4s, duração do vídeo
+    let tempo = 4000; 
     setTimeout(() => {
-      // faz o vídeo desaparecer colocando a classe .desaparecido
       document.querySelector('.backdrop').classList.add('desaparecido');
-      // faz o conteúdo principal surgir, retirando a classe .desaparecido
       document.querySelector('main').classList.remove('desaparecido');
     }, tempo);
 
-
-    // no clique do botão #unmute, tira o atributo muted to video
     document.querySelector('#unmute').addEventListener('click', (e) => {
       document.querySelector('.backdrop video').muted = false;
       e.currentTarget.classList.add('desaparecido');

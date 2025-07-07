@@ -123,3 +123,13 @@ body{
 a{
   color: #0a1129;
 }
+td{
+  border: 1px solid black;
+  padding: 18px;
+}
+table {
+  border-collapse: collapse;
+}
+#cor-diferente{
+  color: rgb(37, 37, 6);
+}

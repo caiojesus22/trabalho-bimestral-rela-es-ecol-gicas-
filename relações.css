@@ -7,3 +7,22 @@ header h1{
   color: #1b5e20;
   box-shadow: 0 2px 6px;
 }
+body{
+  background-color:#c6dfc8;
+  font-family: system-ui;
+  font-size: 20px;
+}
+.relações{
+  font-weight: bold;
+  background: linear-gradient(to right, #000000, #076e0c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+.imagens{
+  width: 300px;
+  
+}
+a{
+  color: #032c05;
+}
