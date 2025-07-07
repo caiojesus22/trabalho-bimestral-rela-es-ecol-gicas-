@@ -1,0 +1,27 @@
+header h1{
+  background-image: linear-gradient(to right, #075009, #076e0a, #08800c, #0a8f0d, #0b9e0f);
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  color: #d8dfd9;
+  box-shadow: 0 2px 6px;
+}
+#boa {
+    margin-left: 50px;
+    color: #012503;
+    font-size: 30px;
+}
+.o-que-e-ecologia{
+  font-weight: bold;
+  background: linear-gradient(to right, #0a1129, #06580a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+section{
+    border-bottom: 2px solid #032e06;
+}
+body{
+    background-image: linear-gradient(to right, #c6dfc8, #a5d6a7);
+}
