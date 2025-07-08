@@ -1,0 +1,131 @@
+
+.backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  pointer-events: none;
+  transition: opacity 1s linear;
+  opacity: 1;
+  visibility: visible;
+}
+
+.desaparecido {
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+.backdrop video {
+  width: 100%;
+}
+ .backdrop.desaparecido + #unmute {
+  display: none;
+}
+
+#unmute {
+  position: absolute;
+  left: calc(50% - 0.75em);
+  top: calc(50% - 0.75em);
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  background-color: rgba(255, 255, 255, .15);
+  color: black;
+  font-size: 2.5rem;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1em;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .15);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .15);
+}
+
+#unmute:hover {
+  color: white;
+}
+
+#unmute:active {
+  color: black;
+  transform: translate(1px, 1px);
+}
+
+#unmute:focus {
+  outline: none;
+  border-color: transparent;
+  box-shadow: 0 0 0 4px yellow;
+}
+
+#unmute:active:focus {
+  color: black;
+  border-color: currentColor;
+  box-shadow: none;
+}
+header h1{
+  background-image: linear-gradient(to right, #075009, #076e0a, #08800c, #0a8f0d, #0b9e0f);
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  color: #cce0cd;
+  box-shadow: 0 2px 6px;
+
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px; 
+  padding: 20px;
+  border-style: dotted;
+  border-color: rgb(2, 41, 12);
+}
+
+.item {
+  background-image: linear-gradient(to left,#115313, #45994c, #0c5f0f ); 
+  border-radius: 10px ;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+  border-style: solid rgb(2, 46, 19);
+  
+}
+body{
+  background-image: linear-gradient(to right, #cee0cf, #628f64);
+  font-family: system-ui;
+  font-size: 17px;
+}
+.o-que-e-ecologia{
+  font-weight: bold;
+  background: linear-gradient(to right, #0a1129, #06580a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  
+}
+.strong{
+  color: black;
+}
+a{
+  color: #011d10;
+}
+td{
+  border: 1px solid rgb(54, 53, 1);
+  padding: 18px;
+}
+table {
+  border-collapse: collapse;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+  background-color: #ccd3ae;
+}
+#cor-diferente{
+  color: rgb(53, 48, 1);
+}
+section{
+  border-bottom: #0a1129 solid 2px;
+}
