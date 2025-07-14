@@ -64,14 +64,13 @@
   box-shadow: none;
 }
 header h1{
-  background-image: linear-gradient(to right, #075009, #076e0a, #08800c, #0a8f0d, #0b9e0f);
+  background-image: linear-gradient(to right, #23ff4d, rgb(16, 88, 16));
   text-align: center;
   padding: 2rem 1rem;
   font-family: 'Anton', sans-serif;
   font-size: 40px;
   color: #cce0cd;
   box-shadow: 0 2px 6px;
-
 }
 
 
@@ -82,21 +81,22 @@ header h1{
   gap: 20px; 
   padding: 20px;
   border-style: dotted;
-  border-color: rgb(2, 41, 12);
+  border-color: white;
 }
 
 .item {
-  background-image: linear-gradient(to left,#115313, #45994c, #0c5f0f ); 
+  background-color: whitesmoke;
   border-radius: 10px ;
   padding: 16px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
-  border-style: solid rgb(2, 46, 19);
+  border-style: solid rgb(2, 48, 20);
   
 }
 body{
   background-image: linear-gradient(to right, #cee0cf, #628f64);
   font-family: system-ui;
   font-size: 17px;
+  text-align: justify;
 }
 .o-que-e-ecologia{
   font-weight: bold;
@@ -129,3 +129,5 @@ table {
 section{
   border-bottom: #0a1129 solid 2px;
 }
+
+
