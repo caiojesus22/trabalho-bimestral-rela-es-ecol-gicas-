@@ -2,25 +2,25 @@
 .backdrop {
   position: fixed;
   left: 0;
-  right: 0;
+  width: 100v;
+  height: 100vh;
   top: 0;
   bottom: 0;
   z-index: -1;
   pointer-events: none;
-  transition: opacity 1s linear;
   opacity: 1;
   visibility: visible;
 }
-
-.desaparecido {
-  opacity: 0 !important;
-  visibility: hidden !important;
-}
-
-.backdrop video {
+#video{
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
 }
- 
+
 header h1{
   background-image: linear-gradient(to right, #23ff4d, rgb(16, 88, 16));
   text-align: center;
@@ -28,12 +28,9 @@ header h1{
   font-family: 'Anton', sans-serif;
   font-size: 40px;
   color: #cce0cd;
-  box-shadow: 0 2px 6px;
-}
-
-
-
-.grid-container {
+  }
+  
+ .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); 
   gap: 20px; 

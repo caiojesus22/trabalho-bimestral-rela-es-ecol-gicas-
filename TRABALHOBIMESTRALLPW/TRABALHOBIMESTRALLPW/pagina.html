@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <main class="desaparecido">
+  <main>
 <header>
  <h1>RELAÇÕES ECOLÓGICAS</h1>
    <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -104,28 +104,14 @@ Segundo os benefícios ou prejuízos que apresentam:
     <p>Para acessar o questionário, clique <strong><a href="fomulário.html">aqui</a></strong>.</p>
 </section>
 </main>
-<aside id="lateral" class="backdrop">
-    <video src="vídeos/relações ecológicas.MP4" autoplay muted>
-    </video>
-  </aside>
-  <button id="unmute">🔉</button>
-
-  <script>
-    
-    let tempo = 4000;  
-    setTimeout(() => {
-      
-      document.querySelector('.backdrop').classList.add('desaparecido');
-      
-      document.querySelector('main').classList.remove('desaparecido');
-    }, tempo);
-
-
-    
-    document.querySelector('#unmute').addEventListener('click', (e) => {
-      document.querySelector('.backdrop video').muted = false;
-      e.currentTarget.classList.add('desaparecido');
-    });
-  </script>
 </body>
+<footer>
+  <p>
+<strong>Conservar é entender como tudo está conectado.</strong>
+  </p>
+  <p>Este site foi desenvolvido como parte de um trabalho bimestral de Labratório de Programação da web, com o objetivo de apresentar as relações ecológicas de forma clara e objetiva.
+  As imagens utilizadas neste site foram retiradas do Google Imagens e estão disponíveis para uso público.</p>
+  <p>Desenvolvido por <strong>Felipe Gama</strong> , <strong>Cristiano Amorim</strong> e <strong>Caio de Jesus</strong>.</p>
+  <p><strong>CEFET-MG</strong> , Professor <strong>Sallum</strong>.</p>
+</footer>
 </html>
