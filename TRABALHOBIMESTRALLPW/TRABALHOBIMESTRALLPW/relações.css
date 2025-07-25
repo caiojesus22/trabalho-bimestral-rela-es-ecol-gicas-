@@ -1,16 +1,23 @@
+header {
+  margin: -8px;
+  margin-top: -8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
 header h1{
-  background-image: linear-gradient(to right, #23ff4d, rgb(16, 88, 16));background-image: linear-gradient(to right, #23ff4d, rgb(16, 88, 16));
+ background-image: linear-gradient(to right, #0a1129, #06580a);
   text-align: center;
   padding: 2rem 1rem;
   font-family: 'Anton', sans-serif;
   font-size: 40px;
   color: #ccdfcd;
   box-shadow: 0 2px 6px;
+  margin-top: -8px;
 }
 body{
   background-image: linear-gradient(to right, #cee0cf, #628f64);
   font-family: system-ui;
   font-size: 17px;
+  cursor: none;
 }
 img{
   width: 300px;
@@ -70,4 +77,10 @@ img{
   font-weight: 400;
   font-style: normal;
 }
-
+#cursor-img {
+  position: absolute;
+  pointer-events: none;
+  width: 40px;
+  height: 40px;
+  z-index: 1000;
+ }

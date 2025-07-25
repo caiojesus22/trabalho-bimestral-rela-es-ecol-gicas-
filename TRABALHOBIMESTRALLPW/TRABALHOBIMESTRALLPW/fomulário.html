@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questionário Relações-ecológicas</title>
     <link rel="stylesheet" href="formulário.css" />
+    
     <link
       rel="icon"
-      href="imagens/Imagem do WhatsApp de 2025-07-04 à(s) 21.35.50_38d110b3.jpg"
+      href="imagens/Imagem do WhatsApp de 2025-07-04 à(s) 21.35.51_90de9df9.jpg"
       type="image/x-icon"
     />
 </head>
@@ -229,5 +230,15 @@
                 <label for="q10">e) <img src="imagens/a6cbc35e8ab61a45b7dc.png" alt="gráfico e"></label><br>
         </section>
     </main>
+     <img src="imagens/cursor.png" id="cursor-img">
 </body>
+<script>
+    const cursorImg = document.getElementById("cursor-img");
+    
+    document.addEventListener("mousemove", function(event) {
+      cursorImg.style.left = event.pageX + "px";
+      cursorImg.style.top = event.pageY + "px";
+    });
+  </script>
+  <script src="formulário.js"></script>
 </html>

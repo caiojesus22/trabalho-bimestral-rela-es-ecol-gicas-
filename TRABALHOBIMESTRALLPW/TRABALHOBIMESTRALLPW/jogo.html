@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jogo.css">
+    <title>jogo</title>
+</head>
+<body>
+    <h1>Jogo: "Ecossistema em Equilíbrio</h1>
+
+    <p><strong>Conceito</strong>: O jogador deve combinar organismos corretamente para formar relações ecológicas válidas.</p>
+
+    <ol>
+        <li><strong>Cartas</strong> aparecem com imagens de organismos (ex: abelha, flor, leão, zebra).</li>
+        <li>O jogador clica nos organismos para formar um par.</li>
+        <li>O sistema valida se a relação ecológica está correta (ex: abelha + flor = mutualismo).</li>
+        <li>Pontuação por acertos e tempo.</li>
+    </ol>
+     <div id="score">Pontos: 0</div>
+    <div id="feedback"></div>
+    <div id="cards"></div>
+    <button id="botão" onclick="startGame()">Novo Jogo</button>
+</body>
+<script src="jogo.js"></script>
+</html>

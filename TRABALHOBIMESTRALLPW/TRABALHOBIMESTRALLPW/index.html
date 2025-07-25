@@ -4,20 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Relações Ecológicas</title>
+  <link rel="stylesheet" href="video.css">
+  <link rel="stylesheet" href="estilos.css">
   <link
       rel="icon"
-      href="imagens/Imagem do WhatsApp de 2025-07-04 à(s) 21.35.50_38d110b3.jpg"
+      href="imagens/Imagem do WhatsApp de 2025-07-04 à(s) 21.35.51_90de9df9.jpg"
       type="image/x-icon"
     />
-  <link rel="stylesheet" href="estilos.css">
-</head>
+  </head>
 <header>
-  <menu>Aurelio</menu>
-</header>
+  <nav class="header-nav">
+  <strong><a href="pagina.html">Página Inicial</a></strong>
+  <strong><a href="relações.html">Tipos de Relações Ecológicas</a></strong>
+  <strong><a href="jogo.html">Jogo</a></strong>
+  <strong><a href="fomulário.html">Questionário</a></strong>
 <body>
-  <aside class="backdrop">
-    <video id="video" src="vídeos/relações ecológicas.MP4" autoplay muted>
+    <aside class="backdrop">
+    <video id="video" src="vídeos/relações ecológicas.MP4" autoplay muted loop>
     </video>
   </aside>
+  <img src="imagens/cursor.png" id="cursor-img">
 </body>
+<script>
+    const cursorImg = document.getElementById("cursor-img");
+    
+    document.addEventListener("mousemove", function(event) {
+      cursorImg.style.left = event.pageX + "px";
+      cursorImg.style.top = event.pageY + "px";
+    });
+  </script>
 </html>
