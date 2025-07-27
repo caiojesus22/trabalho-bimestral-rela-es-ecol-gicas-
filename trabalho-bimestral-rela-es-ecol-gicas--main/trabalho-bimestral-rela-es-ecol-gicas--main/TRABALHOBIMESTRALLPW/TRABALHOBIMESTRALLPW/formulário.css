@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  cursor: none;
+}
+
+header {
+  background-image: linear-gradient(to right, #576181, #4a9784);
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+  color: #000000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+header h1 {
+  color: #cce0cd;
+  margin: 0;
+  font-size: 40px;
+}
+
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #032e06;
+}
+
+.o-que-e-ecologia {
+  font-weight: bold;
+  background: linear-gradient(to right, #0a1129, #06580a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-size: 1.8rem;
+  margin: 20px 0;
+  padding-bottom: 5px;
+}
+
+
+form {
+  margin-top: 15px;
+}
+
+label {
+  display: block;
+  margin: 8px 0;
+  opacity: 1;
+  color: #333; 
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+
+section p, label {
+  opacity: 1 !important;
+  visibility: visible !important;
+  color: #333 !important;
+}
+
+
+#submit-btn {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #3CB371;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#submit-btn:hover {
+  background-color: #2E8B57;
+}
+
+#resultado {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+
+#cursor-img {
+  position: absolute;
+  pointer-events: none;
+  width: 40px;
+  height: 40px;
+  z-index: 1000;
+}
+section p, label {
+  opacity: 1 !important;
+  visibility: visible !important;
+  color: #333 !important;
+}
+#botao-voltar {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #033f0d;
+      color: rgb(255, 255, 255);
+      padding: 10px 15px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      font-family: 'Orbitron', sans-serif;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      z-index: 1000;
+      transition: background-color 0.3s;
+    }
+
+    #botao-voltar:hover {
+      background-color: #318529;
+    }

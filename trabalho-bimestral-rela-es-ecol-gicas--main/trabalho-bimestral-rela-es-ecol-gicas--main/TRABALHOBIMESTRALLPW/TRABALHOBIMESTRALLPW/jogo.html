@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jogo.css">
+    <title>jogo</title>
+     <link
+      rel="icon"
+      href="imagens/Imagem do WhatsApp de 2025-07-04 à(s) 21.35.51_90de9df9.jpg"
+      type="image/x-icon"
+    />
+</head>
+<header>
+    <h1>Jogo: Ecossistema em Equilíbrio</h1>
+</header>
+<body>
+    <p><strong>Conceito</strong>: O jogador deve combinar organismos corretamente para formar relações ecológicas válidas.</p>
+
+    <ol>
+        <li><strong>Cartas</strong> aparecem com imagens de organismos (ex: abelha, flor, leão, zebra).</li>
+        <li>O jogador clica nos organismos para formar um par.</li>
+        <li>O sistema valida se a relação ecológica está correta.</li>
+        <li>Pontuação por acertos.</li>
+    </ol>
+     <div id="score">Pontos: 0</div>
+    <div id="feedback"></div>
+    <div id="cards"></div>
+    <button id="botão" onclick="startGame()">Novo Jogo</button>
+    <button id="botao-voltar" onclick="voltar()">Voltar ao Início</button>
+</body>
+ <img src="imagens/cursor.png" id="cursor-img">
+<script>
+    const cursorImg = document.getElementById("cursor-img");
+    
+    document.addEventListener("mousemove", function(event) {
+      cursorImg.style.left = event.pageX + "px";
+      cursorImg.style.top = event.pageY + "px";
+    });
+  </script>
+<script src="jogo.js"></script>
+<script>
+    function voltar() {
+  window.location.href = "index.html"; // ou o caminho da sua página inicial
+}
+  </script>
+</html>

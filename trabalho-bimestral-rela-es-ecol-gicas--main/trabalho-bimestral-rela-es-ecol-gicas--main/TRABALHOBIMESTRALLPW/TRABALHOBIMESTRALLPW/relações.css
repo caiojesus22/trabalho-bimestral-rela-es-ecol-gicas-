@@ -1,0 +1,113 @@
+header {
+  margin: -8px;
+  margin-top: -8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+header h1{
+ background-image: linear-gradient(to right, #10694c, rgb(3, 73, 32), #033b1c, #10694c);
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  color: #ccdfcd;
+  box-shadow: 0 2px 6px;
+  margin-top: -8px;
+}
+body{
+  background-image: linear-gradient(to right, #cee0cf, #628f64);
+  font-family: system-ui;
+  font-size: 17px;
+  cursor: none;
+  color: #c3eed6;
+}
+img{
+  width: 300px;
+  border-color: #201001;
+  border-radius: 2px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px; 
+  padding: 20px;
+  border-style: dotted;
+  border-color: rgb(2, 41, 12);
+  border-style: solid;
+}
+
+.item {
+  background-image: linear-gradient(to left,#065009, #287234, #064d09 ); 
+  border-radius: 10px ;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+  border-style: solid rgb(2, 46, 19);
+  text-align: center;
+}
+.grid-container1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px; 
+  padding: 20px;
+}
+.item1 {
+  background-image: linear-gradient(to left,#146b31, #106944 , #08721f ); 
+  border-radius: 10px ;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+  border-style: solid rgb(2, 46, 19);
+}
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #221a01;
+}
+#texto-final {
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+  color: #075032;
+  margin-top: 20px;
+}
+.h1{
+
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: linear-gradient(to right, #155c3c, #196438);
+}
+#cursor-img {
+  position: absolute;
+  pointer-events: none;
+  width: 40px;
+  height: 40px;
+  z-index: 1000;
+ }
+.item img {
+    width: 300px;
+    height: 260px;
+    border-radius: 10px;
+    border: 2px solid #023147;
+}
+#botao-voltar {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #033f0d;
+      color: rgb(255, 255, 255);
+      padding: 10px 15px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      font-family: 'Orbitron', sans-serif;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      z-index: 1000;
+      transition: background-color 0.3s;
+    }
+
+    #botao-voltar:hover {
+      background-color: #318529;
+    }
