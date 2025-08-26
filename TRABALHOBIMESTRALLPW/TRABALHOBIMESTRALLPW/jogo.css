@@ -8,7 +8,8 @@ body {
             align-items: center;
             color: white;
         }
-        #game-container {
+
+#game-container {
             max-width: 600px;
             margin: 0 auto;
             padding: 20px;
@@ -16,28 +17,33 @@ body {
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        #cards {
+        
+#cards {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             gap: 15px;
             margin: 20px 0;
         }
-        #feedback {
+
+#feedback {
             min-height: 30px;
             margin: 15px 0;
             font-weight: bold;
             font-size: 18px;
         }
-        .correct {
+
+.correct {
             color: #2e7d32;
         }
-        #score {
+
+#score {
             font-size: 20px;
             font-weight: bold;
             margin-bottom: 15px;
         }
-        button {
+
+button {
             padding: 10px 20px;
             background-color: #4CAF50;
             color: white;
@@ -47,6 +53,33 @@ body {
             font-size: 16px;
             transition: background-color 0.3s;
         }
-        button:hover {
+
+button:hover {
             background-color: #388e3c;
         }
+
+@media (max-width: 1024px) {
+  html { font-size: 15px; }
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  html { font-size: 14px; }
+
+  nav {
+    align-items: center;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
