@@ -120,6 +120,7 @@ Segundo os benefícios ou prejuízos que apresentam:
     <p>Para acessar o questionário, clique <strong><a href="fomulário.html">aqui</a></strong>.</p>
 </section>
 </main>
+<button id="botao-voltar" onclick="voltar()">Voltar ao Início</button>
 </body>
  <img src="imagens/cursor.png" id="cursor-img">
 <footer id="rodape">
@@ -138,5 +139,10 @@ Segundo os benefícios ou prejuízos que apresentam:
       cursorImg.style.left = event.pageX + "px";
       cursorImg.style.top = event.pageY + "px";
     });
+  </script>
+  <script>
+    function voltar() {
+  window.location.href = "index.html"; 
+}
   </script>
 </html>

@@ -84,6 +84,27 @@ img{
   height: 40px;
   z-index: 1000;
  }
+
+ #botao-voltar {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #033f0d;
+      color: rgb(255, 255, 255);
+      padding: 10px 15px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      font-family: 'Orbitron', sans-serif;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      z-index: 1000;
+      transition: background-color 0.3s;
+    }
+
+    #botao-voltar:hover {
+      background-color: #318529;
+    }
+    
  @media (max-width: 1024px) {
   html { font-size: 15px; }
 }

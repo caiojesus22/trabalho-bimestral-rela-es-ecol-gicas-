@@ -142,6 +142,7 @@
     <img src="imagens/960px-Korreldragende-gifkikker-3.jpg">
     </article>
     </section>
+    <button id="botao-voltar" onclick="voltar()">Voltar ao Início</button>
     </body>
     <p id="texto-final">Estas são as principais relações ecológicas! Esperamos que este site tenha o ajudado a aprender melhor sobre elas!</p>
     <img src="imagens/cursor.png" id="cursor-img">
@@ -153,5 +154,10 @@
       cursorImg.style.left = event.pageX + "px";
       cursorImg.style.top = event.pageY + "px";
     });
+  </script>
+  <script>
+    function voltar() {
+  window.location.href = "index.html"; 
+}
   </script>
 </html>
